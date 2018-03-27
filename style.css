@@ -1,0 +1,43 @@
+body{
+    background-image: url("images/Background.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-family: Arial;
+}
+header {
+    margin: 0 auto;
+
+}
+.background {
+    width: 1517px;
+    height: 128px;
+    background-color: rgba(0,0,0,0.5);
+}
+nav > ul > li {
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 54px;
+    padding-left: 50px;
+}
+nav > ul {
+    margin: 0 auto;
+    list-style-type: none;
+}
+.Background2{
+    position: absolute;
+    background-color: deepskyblue;
+    width: 1517px;
+    height: 300px;
+    top: 1024px;
+}
+.Background3{
+    position: absolute;
+    background-color: white;
+    width: 1517px;
+    height: 700px;
+    top: 1324px;
+}
+a:hover {
+    border: 1px solid red;
+}
