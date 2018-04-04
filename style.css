@@ -13,7 +13,7 @@ nav > ul > li {
     color: white;
     display: inline-block;
     padding-top: 40px;
-    padding-left: 25px;
+    padding-left: 40px;
 
 }
 nav > ul {
@@ -24,7 +24,7 @@ main{
     position: absolute;
     background-color: deepskyblue;
     width: 1517px;
-    height: 300px;
+    height: 400px;
     top: 1024px;
 }
 footer{
@@ -42,6 +42,15 @@ a{
     text-decoration: none;
 }
 a:hover{
+    padding: 5px;
     color: deepskyblue;
-    border
+    border: solid deepskyblue;
+}
+h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    color: white;
+    width: 200px;
+    margin: 0;
 }
